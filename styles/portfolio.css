@@ -136,8 +136,28 @@ main {
   line-height: 28px;
   gap: 25px;
   box-shadow: 0 6px 50px 0 rgb(75, 74, 74);
-  -webkit-border-radius:;
-  -moz-border-radius:;
-  -ms-border-radius:;
-  -o-border-radius:;
+ 
+}
+
+
+/* resume styles */
+.resume-container{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 28px;
+    font-weight: bold;
+    margin-bottom:20px ;
+}
+
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+
+.resume hr{
+    margin: 30px 5px;
+}
+
+.download-btn-conteiner{
+    margin-top: 50px;
 }
